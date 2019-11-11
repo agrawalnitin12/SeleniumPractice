@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name = "url" value = "https://login.yahoo.com/"/>
+		<parameter name = "emailID" value = "agrawalnitin_12" />
+		
+			<classes>
+				<class name="selenium.TestNGTests" />
+			</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
